@@ -20,7 +20,7 @@ public class CalcularImpostoDeRendaFuncionarioController {
         this.impostoDeRendaFuncionarioService = impostoDeRendaFuncionarioService;
     }
 
-    @PutMapping("/{cpf}")
+    @GetMapping("/{cpf}")
     @Transactional
     public ResponseEntity calcularImpostoDeRendaFuncionario(@PathVariable("cpf") @Valid String cpf) throws ParseException {
         return ResponseEntity.ok(this.impostoDeRendaFuncionarioService.calcularImpostoDeRendaFuncionario(cpf));

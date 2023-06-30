@@ -8,7 +8,7 @@ Subindo a aplicação:
 3. É um PostMapping para cadastrar e está na url: http://localhost:8082/api/calculo/funcionarios/cadastrar
 4. É um GetMapping para listar todos os funcionários e está na url: http://localhost:8082/api/calculo/funcionarios/listar
 5. É um PutMapping para calcular um novo salário e está na url: http://localhost:8082/api/calculo/calcularSalarioFuncionario/cpf do funcionário
-6. É um PutMapping para calcular o imposto de renda e está na url: http://localhost:8082/api/calculo/calcularImpostoDeRendaFuncionario/cpf do funcionário
+6. É um GetMapping para calcular o imposto de renda e está na url: http://localhost:8082/api/calculo/calcularImpostoDeRendaFuncionario/cpf do funcionário
 ---
 ### Exemplos de valores
 
