@@ -2,6 +2,8 @@
 ![Maven](https://img.shields.io/static/v1?label=Maven&message=3.6.3&color=blue)
 ![SpringBoot](https://img.shields.io/static/v1?label=Spring&message=2.7.12&color=blue)
 ---
+Sobre: projeto onde cadastra um funcionário, calcula seu novo salário quando tem um aumento e quanto vai pagar de IR. 
+---
 Subindo a aplicação:
 1. Rode a classe RestifulApplication
 2. A Api estará rodando no http://localhost:8082/api/calculo
